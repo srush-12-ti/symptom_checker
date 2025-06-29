@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome - Symptom Checker</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff8dc;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"],
+        input[type="number"] {
+            padding: 8px 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin: 10px 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #ffeb3b;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        h1 {
+            color: #1565c0;
+        }
+        p {
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Symptom Checker</h1>
+        <p>We are here to guide you through understanding your health symptoms.</p>
+        <p><strong>Stay positive — you're in the right place.</strong></p>
+
+        <form method="POST" action="/symptoms">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="number" name="age" placeholder="Enter your age" required>
+            <button type="submit">Continue to Symptom Checker</button>
+        </form>
+    </div>
+</body>
+</html>

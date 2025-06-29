@@ -1,0 +1,218 @@
+[
+  {
+    "symptoms": [
+      "fever",
+      "headache",
+      "body pain",
+      "cough"
+    ],
+    "predicted_disease": "Flu",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "sore throat",
+      "fatigue",
+      "fever",
+      "body pain"
+    ],
+    "predicted_disease": "Flu",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "runny nose",
+      "sneezing",
+      "mild cough",
+      "headache"
+    ],
+    "predicted_disease": "Common Cold",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "sore throat",
+      "sneezing",
+      "runny nose"
+    ],
+    "predicted_disease": "Common Cold",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "chills",
+      "sweating",
+      "fever",
+      "vomiting"
+    ],
+    "predicted_disease": "Malaria",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "nausea",
+      "fever",
+      "sweating",
+      "headache"
+    ],
+    "predicted_disease": "Malaria",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "dry cough",
+      "loss of smell",
+      "fatigue",
+      "fever"
+    ],
+    "predicted_disease": "COVID-19",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "breathing difficulty",
+      "dry cough",
+      "loss of taste",
+      "fatigue"
+    ],
+    "predicted_disease": "COVID-19",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "headache",
+      "fever",
+      "cough"
+    ],
+    "predicted_disease": "Flu",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "sore throat",
+      "sneezing"
+    ],
+    "predicted_disease": "Common Cold",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "chills",
+      "nausea",
+      "sweating"
+    ],
+    "predicted_disease": "Malaria",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "loss of smell",
+      "loss of taste",
+      "dry cough"
+    ],
+    "predicted_disease": "COVID-19",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "body pain",
+      "fatigue",
+      "loss of smell",
+      "loss of taste",
+      "sneezing",
+      "sore throat"
+    ],
+    "predicted_disease": "COVID-19",
+    "user_feedback": "no"
+  },
+  {
+    "symptoms": [
+      "loss of smell",
+      "loss of taste",
+      "nausea",
+      "runny nose",
+      "sneezing",
+      "sweating"
+    ],
+    "predicted_disease": "Common Cold",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "body pain",
+      "dry cough",
+      "headache",
+      "mild cough",
+      "sore throat"
+    ],
+    "predicted_disease": "Common Cold",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "body pain",
+      "breathing difficulty",
+      "chills",
+      "headache",
+      "nausea",
+      "vomiting"
+    ],
+    "predicted_disease": "Malaria",
+    "user_feedback": "no"
+  },
+  {
+    "symptoms": [
+      "nausea"
+    ],
+    "predicted_disease": "Malaria",
+    "user_feedback": "no"
+  },
+  {
+    "symptoms": [
+      "dry cough",
+      "fatigue"
+    ],
+    "predicted_disease": "COVID-19",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "breathing difficulty",
+      "chills",
+      "cough",
+      "fever",
+      "loss of taste",
+      "mild cough",
+      "sore throat"
+    ],
+    "predicted_disease": "Flu",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "fatigue",
+      "loss of smell",
+      "loss of taste",
+      "nausea",
+      "sweating",
+      "vomiting"
+    ],
+    "predicted_disease": "COVID-19",
+    "user_feedback": "yes"
+  },
+  {
+    "symptoms": [
+      "headache",
+      "sneezing"
+    ],
+    "predicted_disease": "Common Cold",
+    "user_feedback": "no"
+  },
+  {
+    "symptoms": [
+      "sore throat"
+    ],
+    "predicted_disease": "Common Cold",
+    "user_feedback": "no"
+  }
+]

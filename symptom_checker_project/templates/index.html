@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Symptom Checker</title>
+  <style>
+    body {
+      background-color: #e3f2fd;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 30px;
+      color: #333;
+    }
+    .form-box {
+      background-color: #fff9c4;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 700px;
+      margin: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #1976d2;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin: 8px 0;
+    }
+    input[type=submit] {
+      background-color: #42a5f5;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    input[type=submit]:hover {
+      background-color: #1e88e5;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-box">
+    <h2>Select your symptoms:</h2>
+    <form method="POST" action="/predict">
+      {% for symptom in symptoms %}
+        <label><input type="checkbox" name="symptoms" value="{{ symptom }}"> {{ symptom }}</label>
+      {% endfor %}
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>

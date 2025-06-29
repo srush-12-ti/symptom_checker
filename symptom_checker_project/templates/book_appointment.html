@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Appointment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fffdf5;
+            text-align: center;
+            margin-top: 50px;
+        }
+        form {
+            background-color: #e6f3ff;
+            display: inline-block;
+            padding: 20px;
+            border-radius: 15px;
+        }
+        input, select {
+            margin: 10px;
+            padding: 8px;
+            width: 250px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #fdd835;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Book Your Appointment</h2>
+    <form method="POST" action="/book_appointment">
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="number" name="age" placeholder="Your Age" required><br>
+        <input type="text" name="appointment_time" placeholder="Preferred Time & Place (e.g., Mon 10AM at Clinic)" required><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

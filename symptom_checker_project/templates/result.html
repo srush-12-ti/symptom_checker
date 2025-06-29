@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diagnosis Result</title>
+  <style>
+    body {
+      background-color: #fffbea;
+      font-family: Arial, sans-serif;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    .box {
+      background-color: #e0f4ff;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+    button {
+      background-color: #fdd835;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Hi there</h2>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <p><strong>Predicted Disease:</strong> {{ prediction }}</p>
+    <p><strong>Assigned Doctor:</strong> {{ doctor if doctor else "No doctor available" }}</p>
+
+
+
+    <br><br>
+    <form method="post" action="/feedback">
+        <input type="hidden" name="prediction" value="{{ prediction }}">
+        {% for symptom in symptoms %}
+            <input type="hidden" name="symptoms" value="{{ symptom }}">
+        {% endfor %}
+        <label>Was the prediction correct?</label><br>
+        <input type="radio" name="feedback" value="yes" required> Yes
+        <input type="radio" name="feedback" value="no" required> No
+        <br><br>
+        <input type="submit" value="Submit Feedback">
+    </form>
+</div>
+
+
+    <a href="{{ url_for('appointment') }}">
+        <button style="padding: 10px 20px; background-color: #fdd835; color: black; font-weight: bold; border: none; border-radius: 8px; cursor: pointer;">
+            Book Appointment
+        </button>
+    </a>
+  </div>
+</body>
+</html>
